@@ -14,6 +14,7 @@
     <link href="../blog.css" rel="stylesheet">
   </head>
   <body>
+    <!--
     <div class="container">
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
@@ -24,14 +25,40 @@
           <div class="col-"></div>
         </div>
       </header>
-      <div class="nav-scroller py-1 mb-2" style="border-bottom: 1px solid #e5e5e5;">
+      <div class="nav-scroller py-1 mb-2">
         <nav class="nav center-content-between">
           <a class="p-2 text-muted" href="../index.html">Home</a>
           <a class="p-2 text-muted" href="../about-me.html">About Me</a>
         </nav>
       </div>
+      -->
       <!-- As a heading -->
-      <main role="main" class="container">
+      <!--
+      <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1" href="../index.html">Jorney to LMFT</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="../about-me.html">About Me</a>
+          </div>
+        </div>
+      </nav>
+    -->
+      <nav class="navbar fixed-top navbar-expand navbar-light bg-info">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-white" style='font-family: "Playfair Display", Georgia, "Times New Roman", serif;' href="../index.html">Jorney to LMFT</a>
+            <ul class="navbar-nav mr-auto mt-0 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../about-me.html">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main role="main" class="container pt-5">
         <div class="row justify-content-center pt-5">
           <div class="col-md-8">
             <div class="media pb-3">
@@ -94,25 +121,7 @@
         <p><a href="#">Back to top</a></p>
       </footer>
     </div>
-    <script>
-      // When the user scrolls the page, execute myFunction 
-      window.onscroll = function() {myFunction()};
-
-      // Get the navbar
-      var navbar = document.getElementById("nav-scroller");
-
-      // Get the offset position of the navbar
-      var sticky = navbar.offsetTop;
-
-      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
-    </script>
+    <!--<h1>Hello, world!</h1> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
